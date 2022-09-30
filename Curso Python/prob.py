@@ -1,3 +1,5 @@
+#Numeros en comun en dos listas distintas
+
 def sub_list(list_x,list_y):
     result = list()
 
@@ -11,4 +13,4 @@ def sub_list(list_x,list_y):
     else: return result   
     
 
-print(sub_list([1, 2, 7,4, 5],[0, 2, 4, 6, 8, 10]))
+print(sub_list([1, 2, 7, 4, 5],[0, 2, 4, 6, 8, 10]))
